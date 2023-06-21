@@ -5,7 +5,9 @@
   font-family: "Roboto", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
 }
-
+body {
+  height: 100vh;
+}
 .header {
   background-color: #141414;
   color: white;
@@ -61,6 +63,7 @@
   background: black;
   color: white;
   min-height: 100vh;
+  padding-bottom: 10px;
 }
 
 .movies-section {
@@ -84,6 +87,7 @@
 .movie-heading {
   font-weight: bold;
   color: red;
+  width: 177.95px;
 }
 .details{
   font-size: 14px;
